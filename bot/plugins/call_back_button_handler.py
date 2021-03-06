@@ -35,7 +35,7 @@ async def button(bot, update: CallbackQuery):
     LOGGER.info(update.message.reply_to_message.from_user.id)
     if (update.from_user.id == update.message.reply_to_message.from_user.id) or g:
         print(cb_data)
-        if cb_data == "fuckingdo":
+        if cb_data == "OH":
             if update.from_user.id in AUTH_USERS:
                 status = DOWNLOAD_LOCATION + "/status.json"
                 with open(status, 'r+') as f:
@@ -70,9 +70,9 @@ async def button(bot, update: CallbackQuery):
                     await update.message.edit_text("You are not allowed to do that 🤭")
                 except:
                     pass
-        elif cb_data == "fuckoff":
+        elif cb_data == "OH":
             try:
-                await update.message.edit_text("Okay! Fine 🤬")
+                await update.message.edit_text("Okay! Fine")
             except:
                 pass
 				
