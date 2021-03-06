@@ -74,14 +74,11 @@ async def help_message_f(client, message):
         reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton('Updates Channel', url='https://t.me/hackelitebotlist')
+                    InlineKeyboardButton('⭕️CHANNEL⭕️', url='https://t.me/VKPROJECTS')
                 ],
                 [
-                    InlineKeyboardButton('Support Group', url='https://t.me/hackelite01')
-                ],
-                [
-                    InlineKeyboardButton('Developer', url='https://t.me/mayank1rajput'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
-                    InlineKeyboardButton('Source Code', url='https://github.com/hackelite01/VideoCompressorBot') # Must Give us Credits!
+                    InlineKeyboardButton('⭕️GROUP⭕️', url='https://t.me/VKP_BOTS'), # Bloody Thief, Don't Become a Developer by Stealing other's Codes & Hard Works!
+                    InlineKeyboardButton('♐️SHARE♐️', url='tg://msg?text=Hai%20Friend+❤️,+Today%20i+just+found+out+an+intresting+and+Powerful+**Video+Compress+Bot**+for+Free🥰.+**Bot+Link**+:+@VideoCompressProBot+🔥') # Must Give us Credits!
                 ]
             ]
         ),
