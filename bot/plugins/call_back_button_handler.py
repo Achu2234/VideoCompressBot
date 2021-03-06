@@ -35,7 +35,7 @@ async def button(bot, update: CallbackQuery):
     LOGGER.info(update.message.reply_to_message.from_user.id)
     if (update.from_user.id == update.message.reply_to_message.from_user.id) or g:
         print(cb_data)
-        if cb_data == "OH":
+        if cb_data == "fuckingdo":
             if update.from_user.id in AUTH_USERS:
                 status = DOWNLOAD_LOCATION + "/status.json"
                 with open(status, 'r+') as f:
