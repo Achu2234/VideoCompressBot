@@ -23,7 +23,7 @@ class Localisation:
     
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.95GB due to Telegram API limitations."
     
-    COMPRESS_SUCCESS = "ðŸ“¥ Downloaded in {}\n\nðŸ“€ Compressed in {}\n\nðŸ“¤ Uploaded in {}\n\nBy @VKPROJECTS"
+    COMPRESS_SUCCESS = "ðŸ“¥ Downloaded in {}\n\nðŸ“€ Compressed in {}\n\nðŸ“¤ Uploaded in {}\n\nBy @Animemusicarchive6"
 
     COMPRESS_PROGRESS = "â„1¤7 ETA: {}\nðŸš€ Progress: {}%"
 
@@ -47,7 +47,7 @@ class Localisation:
     
     HELP_MESSAGE = get_config(
         "STRINGS_HELP_MESSAGE",
-        "Hi, I am Video Compressor Bot \n\n1. Send me your telegram big video file \n2. Reply to the file with: `/compress 50` \n\nSupport : @VKPROJECTS"
+        "Hi, I am Video Compressor Bot \n\n1. Send me your telegram big video file \n2. Reply to the file with: `/compress 50` \n\nSupport :@Animemusicarchive6"
     )
     WRONG_MESSAGE = get_config(
         "STRINGS_WRONG_MESSAGE",
