@@ -13,7 +13,7 @@ A Telegram Video Compressor Bot By [@mayank1rajput](https://t.me/hackelite01). *
 
 
 ## Easy Deploy:
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/v-v-r-official/VideoCompressBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Achu2234/VideoCompressBot)
 
 ### Support Group:
 <a href="https://t.me/hackelite01"><img src="https://img.shields.io/badge/Telegram-Join%20Telegram%20Group-blue.svg?logo=telegram"></a>
